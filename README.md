@@ -25,3 +25,16 @@ Note in my computer the Wi-Fi interface is **en0**, to know yours run the below 
 ```
 networksetup -listnetworkserviceorder
 ```
+
+## Bulk Accept LinkedIn requests
+```
+var x = document.querySelectorAll('button.artdeco-button--secondary')
+for (var i = 0; i < x.length; i++) {
+  setTimeout(function(idx) {
+    if (x[idx]) {
+      x[idx].click();
+    }
+  }, 1000 * i, i);
+};
+
+```
