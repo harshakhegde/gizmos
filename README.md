@@ -38,3 +38,6 @@ for (var i = 0; i < x.length; i++) {
 };
 
 ```
+
+## Cowsat Darth Vader
+Copy the cow file into /opt/homebrew/Cellar/cowsay/<version>/share/cowsay/cows
